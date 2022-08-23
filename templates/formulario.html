@@ -1,0 +1,26 @@
+{% extends "layout.html" %}
+
+{% block content %}
+    <H1 class="text-danger">Formulario HTML</H1>
+
+    <form action="" method="post">
+        <div class="form-group">
+            <label for="nombre">Nombre</label>
+            <input type="text" name="name" class="form-control">
+        </div>
+        <div class="form-group">
+            <label for="email">Correo</label>
+            <input type="email" name="email" class="form-control">
+        </div>
+        <div class="form-group">
+            <label for="Tel">Teléfono</label>
+            <input type="tel" name="tel" class="form-control">
+        </div>
+        <div class="form-group">
+            <label for="nombre">Nombre</label>
+            <input type="text" name="name" class="form-control">
+        </div>
+
+        <button type="submit" class="btn btn-primary btn-block">Enviar</button>
+    </form>
+{% endblock %}
